@@ -14,11 +14,11 @@
 }
 
 body{
-    background-color: #f0eded;
+    background-color: #f5f2f2;
 }
 
 header{
-    background-image: linear-gradient(to right ,   #aa17e4, #C554DE, #e275ac);
+    background-image: linear-gradient(to right ,   #aa17e4, #C554DE,#e07ae9);
     padding: 20px;
     color: white;
     display: flex;
@@ -60,4 +60,36 @@ h2{
 p{
     padding: 10px;
     text-align: justify;
+}
+
+.produtos img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.itens, .itens p{
+    text-align: center;
+}
+
+.itens h3{
+    margin-bottom: 10px;
+}
+
+.itens button{
+    background-color: #aa17e4;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    margin-bottom: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itens button:hover{
+    background-color: #7f0fac;
 }
