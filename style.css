@@ -65,10 +65,9 @@ p{
 .produtos img{
     height: 300px;
     width: 300px;
-    display: block;
-    margin: auto;
     padding: 10px;
 }
+
 
 .itens, .itens p{
     text-align: center;
@@ -92,4 +91,30 @@ p{
 
 .itens button:hover{
     background-color: #7f0fac;
+}
+
+.itens a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width:641px) and (max-width:1023px){
+ 
+    header h1{
+        font-size: 2.5em;
+    }
+
+    .sobre img{
+        height: 500px;
+        width: 500px;
+    }
+
+    h2{
+        font-size: 1.8em;
+    }
+    
+    p{
+        padding: 30px;
+        text-align: justify;
+    }
 }
