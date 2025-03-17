@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*#B949E6- ROXO
+#C554DE-LILAS
+#C554DE-ROSA*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to right ,   #B949E6, #C554DE, #C554DE);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
