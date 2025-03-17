@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
 /*#B949E6- ROXO
 #C554DE-LILAS
 #C554DE-ROSA*/
@@ -8,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -17,11 +20,18 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5em;
+    
+}
+
+header h1{
+    font-family: "Emblema One", system-ui;
+    font-size: 2em;
 }
 
 header a{
     color: white;
     text-decoration: none;
     padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
 }
