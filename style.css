@@ -13,8 +13,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #f0eded;
+}
+
 header{
-    background-image: linear-gradient(to right ,   #B949E6, #C554DE, #C554DE);
+    background-image: linear-gradient(to right ,   #aa17e4, #C554DE, #e275ac);
     padding: 20px;
     color: white;
     display: flex;
@@ -34,4 +38,26 @@ header a{
     padding: 15px;
     font-size: 1.3em;
     font-weight: bold;
+}
+
+.sobre img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #B949E6;
+    border-bottom: 2px solid #B949E6;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
 }
